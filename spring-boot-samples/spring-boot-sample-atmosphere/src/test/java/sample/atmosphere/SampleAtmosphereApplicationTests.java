@@ -55,6 +55,7 @@ public class SampleAtmosphereApplicationTests {
 	@LocalServerPort
 	private int port = 1234;
 
+	int dumbNumber = 0;
 	@Test
 	public void chatEndpoint() throws Exception {
 		ConfigurableApplicationContext context = new SpringApplicationBuilder(
